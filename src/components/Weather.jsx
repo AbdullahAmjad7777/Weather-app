@@ -10,7 +10,7 @@ import snow_icon from "./assets/snow.png";
 import wind_icon from "./assets/wind.png";
 
 const Weather = () => {
-  let api_key = "0cf62e931cf38890dd290a003d9696df";
+  let api_key = "";
   const [weatherIcon, setWeatherIcon] = useState(cloud_icon);
 
   const search = async () => {
